@@ -37,11 +37,11 @@ func! lightline#colorscheme#github#compute()
         let purple     = s:getGHColor('ghPurple')
         " }}}
 
-        let flatten = [ base0, grey1 ]
+        let flatten = [ base1, grey1 ]
         let below = [ base1, grey2 ]
 
         let p = {'normal':{}, 'inactive':{}, 'insert':{}, 'replace':{}, 'visual':{}, 'tabline':{}, 'terminal':{}}
-        let p.normal.left = [ [ grey2, base0, 'bold' ], flatten ]
+        let p.normal.left = [ [ grey2, base1, 'bold' ], flatten ]
         let p.normal.right = [ [ grey2, base1 ], flatten ]
         let p.normal.middle = [ below ]
         let p.inactive.right = [ [ base3, grey2 ], [ base3, grey2 ] ]
