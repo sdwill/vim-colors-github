@@ -217,7 +217,7 @@ else
   let s:colors.base1          = s:lib.base1
   let s:colors.base2          = s:lib.base2
   let s:colors.base3          = s:lib.base3
-  let s:colors.fg             = s:colors.base0
+  let s:colors.fg             = s:colors.base1
   let s:colors.gutterfg       = s:colors.base3
 
   if g:github_colors_soft == 0
